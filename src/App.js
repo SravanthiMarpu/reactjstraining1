@@ -1,11 +1,19 @@
 import React from 'react';
 import './App.css';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link,
+    useNavigate,
+    Outlet,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to Our Landing Page</h1>
+        <h1>Welcome to Our Landing Page1</h1>
         <p>We offer amazing services that will help you grow your business.</p>
         <a href="#cta" className="cta-button">Get Started</a>
       </header>
