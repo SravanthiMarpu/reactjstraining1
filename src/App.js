@@ -8,16 +8,16 @@ import {
     useNavigate,
     Outlet,
 } from "react-router-dom";
+import Header from './Components/Header';
+import ClassComponent from './Components/ClassComponent';
+import FunctionComponent from './Components/FunctionComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Welcome to Our Landing Page1</h1>
-        <p>We offer amazing services that will help you grow your business.</p>
-        <a href="#cta" className="cta-button">Get Started</a>
-      </header>
-
+      <Header/>
+      <ClassComponent/>
+      <FunctionComponent/>
       <section id="about" className="section">
         <h2>About Us</h2>
         <p>We are a team of professionals who specialize in providing top-notch solutions for your business.</p>
